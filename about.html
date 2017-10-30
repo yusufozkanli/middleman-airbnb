@@ -7,11 +7,39 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-3c48b980.css" rel="stylesheet" />
+    <link href="stylesheets/application-acb8696b.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
+    <div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo-acc9c0ec.png" id="logo" alt="Logo" />
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
+    <a href="team.html" class="btn btn-primary">Meet the team</a>
+  </div>
+
+  <!-- Profile picture with dropdown list -->
+  <div class="navbar-wagon-item">
+    <div class="dropdown">
+      <img src="https://kitt.lewagon.com/placeholder/users/yusufozkanli" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Log Out</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+   <!-- inject layouts/_navbar.html.erb -->
     <div id="about">
   <div class="about-content">
     <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
@@ -31,6 +59,19 @@
 </a>          </p>
         </li>
     </ul>
+  </div>
+</div>
+                      <!-- Page content is injected here -->
+    <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fa fa-github"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fa fa-heart"></i> at Le Wagon
   </div>
 </div>
 
